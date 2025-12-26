@@ -14,14 +14,15 @@
 - 学习项目代码，构思新项目
 
 ## 目录结构
+```
 Wan-s-Learn/
-|-- c-basics/          # C语言基础练习
-|-- cpp-basics/        # C++语言基础
-|-- data-structures/   # 数据结构
-|-- algorithms/        # 算法  
-|-- projects/          # 小项目
-`-- notes/  
-
+├── c-basics/ # C语言基础练习
+├── cpp-basics/ # C++语言基础
+├── data-structures/ # 数据结构
+├── algorithms/ # 算法
+├── projects/ # 小项目
+└── notes/ # 学习笔记
+```
 # 联系我：
 - GitHub:wjr258349936
 - 邮箱:258349936@qq.com
