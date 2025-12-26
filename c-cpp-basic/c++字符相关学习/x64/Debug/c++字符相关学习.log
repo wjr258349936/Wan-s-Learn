@@ -1,0 +1,8 @@
+﻿  string.cpp
+D:\SourceCode\VS用的\cppproject\语言语法学习\c++字符相关学习\string.cpp(11,17): warning C4305: “参数”: 从“int”到“const _Elem”截断
+D:\SourceCode\VS用的\cppproject\语言语法学习\c++字符相关学习\string.cpp(11,17): warning C4305:         with
+D:\SourceCode\VS用的\cppproject\语言语法学习\c++字符相关学习\string.cpp(11,17): warning C4305:         [
+D:\SourceCode\VS用的\cppproject\语言语法学习\c++字符相关学习\string.cpp(11,17): warning C4305:             _Elem=char
+D:\SourceCode\VS用的\cppproject\语言语法学习\c++字符相关学习\string.cpp(11,17): warning C4305:         ]
+D:\SourceCode\VS用的\cppproject\语言语法学习\c++字符相关学习\string.cpp(11,17): warning C4309: “参数”: 截断常量值
+  c++字符相关学习.vcxproj -> D:\SourceCode\VS用的\cppproject\语言语法学习\x64\Debug\c++字符相关学习.exe

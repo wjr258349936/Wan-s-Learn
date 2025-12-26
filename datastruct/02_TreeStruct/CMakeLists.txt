@@ -1,0 +1,4 @@
+add_subdirectory(01_BiTree)
+add_subdirectory(02_ThreadBiTree)
+add_subdirectory(03_BSTree)
+add_subdirectory(04_AVLTree)

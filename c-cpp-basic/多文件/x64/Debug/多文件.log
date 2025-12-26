@@ -1,0 +1,5 @@
+﻿  abc.c
+  main.c
+  正在生成代码...
+D:\cppproject\语言语法学习\多文件\main.c(6,1): warning C4716: “test01”: 必须返回一个值
+  多文件.vcxproj -> D:\cppproject\语言语法学习\x64\Debug\多文件.exe

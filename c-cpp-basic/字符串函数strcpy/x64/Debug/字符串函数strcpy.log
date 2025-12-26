@@ -1,0 +1,3 @@
+﻿  mycpy.c
+D:\cppproject\语言语法学习\字符串函数strcpy\mycpy.c(6,1): warning C4716: “mycpy”: 必须返回一个值
+  字符串函数strcpy.vcxproj -> D:\cppproject\语言语法学习\x64\Debug\字符串函数strcpy.exe

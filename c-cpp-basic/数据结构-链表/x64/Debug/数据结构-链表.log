@@ -1,0 +1,3 @@
+﻿  链表本体增删改查.c
+D:\cppproject\语言语法学习\数据结构-链表\链表本体增删改查.c(211,1): warning C4715: “insertLink”: 不是所有的控件路径都返回值
+  数据结构-链表.vcxproj -> D:\cppproject\语言语法学习\x64\Debug\数据结构-链表.exe

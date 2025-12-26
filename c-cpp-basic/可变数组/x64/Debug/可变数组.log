@@ -1,0 +1,3 @@
+﻿  可变数组.c
+D:\cppproject\语言语法学习\可变数组\可变数组.c(11,1): warning C4716: “array_create”: 必须返回一个值
+  可变数组.vcxproj -> D:\cppproject\语言语法学习\x64\Debug\可变数组.exe
