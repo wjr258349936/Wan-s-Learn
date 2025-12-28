@@ -1,32 +1,27 @@
-//
-// Created by lenovo on 2025/12/21.
-//
+#ifndef AVLTREE_H
+#define AVLTREE_H
+typedef int element_t;
+/* 平衡二叉树节点结构 */
+typedef struct tree_node {
+	element_t data;
+	struct tree_node *left;
+	struct tree_node *right;
+	int height;
+} AVLNode;
+/* 平衡二叉树头结构 */
+typedef struct {
+	AVLNode *root;
+	int count;
+} AVLTree;
 
-#ifndef DATASTRUCT_AVLTREE_H
-#define DATASTRUCT_AVLTREE_H
+AVLTree *createAVLTree();				// 创建空的平衡二叉树
+void releaseAVLTree(AVLTree *tree);		// 释放平衡二叉树节点及头节点
+void visitAVLNode(const AVLNode *node);	// 访问平衡二叉树节点
 
-#include <stdio.h>
-#include <stdlib.h>
+void insertAVLTree(AVLTree *tree, element_t value);		// 向平衡二叉树插入节点
+AVLNode *searchAVLTree(const AVLTree *tree, element_t value);	// 在平衡二叉树中查找节点
+void deleteAVLTree(AVLTree *tree, element_t value);		// 从平衡二叉树删除节点
 
-#define element_t int
-
-typedef struct avlnode{
-    element_t data;
-    struct avlnode*left;
-    struct avlnode*right;
-}AVLNode;
-
-typedef struct avltree{
-    AVLNode* root;
-    int count;
-}AVLTree;
-
-AVLTree *createAVLTree();
-void initAVLTree(AVLTree *tree);
-AVLNode *createAVLNode(element_t data);
-
-void linkAVLNode(AVLNode *parent,AVLNode *left,AVLNode *right);
-
-void insertAVLTree(AVLTree *tree,AVLNode* node);
-
-#endif //DATASTRUCT_AVLTREE_H
+void inOrderAVLTree(const AVLTree *tree);	// 平衡二叉树中序遍历
+int	heightAVLTree(const AVLTree *tree);		// 这棵树的高度
+#endif //AVLTREE_H
