@@ -10,3 +10,10 @@ add_executable(02_SwapSort 02_SwapSort/main.c
 		02_SwapSort/quickSort.c
 		02_SwapSort/quickSort.h
 )
+
+add_executable(03_HeapSort 03_HeapSort/main.c
+		./sortHelper.c ./sortHelper.h
+		03_HeapSort/miniHeap.c
+		03_HeapSort/miniHeap.h
+		03_HeapSort/heapSort.c
+		03_HeapSort/heapSort.h)
