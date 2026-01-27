@@ -17,3 +17,9 @@ add_executable(03_HeapSort 03_HeapSort/main.c
 		03_HeapSort/miniHeap.h
 		03_HeapSort/heapSort.c
 		03_HeapSort/heapSort.h)
+
+add_executable(04_MergeSort 04_MergeSort/main.c
+		./sortHelper.c ./sortHelper.h
+		04_MergeSort/mergeSort.c
+		04_MergeSort/mergeSort.h
+)
